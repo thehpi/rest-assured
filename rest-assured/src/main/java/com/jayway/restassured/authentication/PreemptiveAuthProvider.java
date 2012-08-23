@@ -26,7 +26,8 @@ public class PreemptiveAuthProvider {
      *
      * @return The Request specification
      */
-    public AuthenticationScheme basic(String userName, String password) {
+	public AuthenticationScheme basic(String userName, String password)
+	{
         final PreemptiveBasicAuthScheme preemptiveBasicAuthScheme = new PreemptiveBasicAuthScheme();
         preemptiveBasicAuthScheme.setUserName(userName);
         preemptiveBasicAuthScheme.setPassword(password);

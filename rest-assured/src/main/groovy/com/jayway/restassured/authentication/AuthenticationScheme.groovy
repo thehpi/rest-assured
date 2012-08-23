@@ -18,7 +18,7 @@ package com.jayway.restassured.authentication
 
 import com.jayway.restassured.internal.http.HTTPBuilder
 
-public interface AuthenticationScheme {
+public interface AuthenticationScheme { 
 
   void authenticate(HTTPBuilder httpBuilder)
 
